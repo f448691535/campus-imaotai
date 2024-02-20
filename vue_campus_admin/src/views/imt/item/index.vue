@@ -32,7 +32,7 @@
         <template slot-scope="scope">
           <el-image
             style="width: 100px; "
-            :src="scope.row.picture"
+            :src="scope.row.pictureV2"
             fit="fit"
           ></el-image>
         </template>

@@ -15,6 +15,7 @@ CREATE TABLE `i_item` (
                           `title` varchar(50) DEFAULT NULL COMMENT '标题',
                           `content` varchar(255) DEFAULT NULL COMMENT '内容\n',
                           `picture` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL COMMENT '图片url',
+                          `picture_v2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL COMMENT '图片url',
                           `create_time` datetime DEFAULT NULL COMMENT '创建时间'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci COMMENT='I茅台预约商品列表';
 
